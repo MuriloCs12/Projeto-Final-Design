@@ -1,0 +1,46 @@
+#email{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#button-form{
+    font-family: 'Poppins', sans-serif;
+    height: 48px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.background{
+    background-image: url(../img/background\ 2.svg);
+    background-repeat: no-repeat;
+}
+.background img{
+    padding-bottom: 82px;
+}
+.barra-azul{
+    height: 4px;
+    width: 214.55px;
+    background-color: #307FE2;
+    border-radius: 100px;
+}
+
+#façalogin h1{
+    color: #307FE2;
+}
+
+#façalogin p{
+    font-size: 16.6px;
+}
+
+#seta{
+    font-family: 'Lilita One', sans-serif;
+    height: 60px;
+    width: 60px;
+}
+#bloco-login{
+    padding-bottom: 258px;
+}
