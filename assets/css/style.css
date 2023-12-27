@@ -18,9 +18,6 @@ p{
     background-image: url(../img/background\ 2.svg);
     background-size: 100%;
 }
-.background img{
-    padding-bottom: 82px;
-}
 .barra-azul{
     height: 4px;
     width: 214.55px;
@@ -42,5 +39,34 @@ p{
     width: 60px;
 }
 #bloco-login{
-    padding-bottom: 258px;
+  margin-top: 250px;
+ 
+}
+
+#cadastrar{
+    font-size: 12px;
+}
+
+form input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #828282;
+}
+
+form{
+    position: relative;
+}
+
+form img{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+.hhh{
+    min-height: 953px;
+}
+form input{
+    border-color: #BDBDBD;
 }
