@@ -27,3 +27,19 @@
 .options {
     max-width: 201px;
 }
+
+#perfil-esquerda {
+    width: 280px; 
+}
+
+#perfil-esquerda .card img{
+    width: 180px
+}
+
+#alterar{
+    color: #0095D9;
+}
+
+#excluir{
+    color: #FF161F;
+}
