@@ -8,7 +8,8 @@
 
 ## Tarefas (21/12/2023)
 - [x] Montagem de página de login (Todos)
-- [ ] Montagem das páginas de redefinição de senha (Todos)
+- [x] Montagem das páginas de redefinição de senha (Todos)
+- [ ] Montagem do Dashboard (Todos)
 - [x] Criação do repositório (Murilo)
 - [x] Envio de convites aos colaboradores (Murilo)
 
