@@ -123,3 +123,14 @@ form input{
 #cadastrar a{
     font-size: 12px;
 }
+
+/* Tarefa 4 */
+
+#home{
+    color: #0095D9;
+}
+
+#button{
+    background-color: #0095D9;
+    border: none;
+}
