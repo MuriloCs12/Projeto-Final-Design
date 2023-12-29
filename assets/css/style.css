@@ -29,7 +29,9 @@
 .bi-person-circle{
     color: #BDBDBD;
 }
-
+.profile:hover{
+    cursor: pointer;
+}
 .bi-list{
     font-size: 40px;
 }
