@@ -1,8 +1,35 @@
+.gambiarra{
+    overflow-x: hidden;
+}
+
 /*Tarefa-4*/
-.bi-list, .bi-house-door, .bi-star, .bi-box-arrow-right {
+.bi-list, .bi-house-door, .bi-star {
     color: black;
     
 }
+.bi-box-arrow-right{
+    color: #FF161F;
+}
+.pessoa :nth-child(1){
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.padeiro {
+    padding: 32px;
+    border-right: 1px solid #BDBDBD;
+}
+
+.pessoa :nth-child(2){
+    color: #4F4F4F;
+    font-size: 12px;
+}
+
+.bi-person-circle{
+    color: #BDBDBD;
+}
+
 .bi-list{
     font-size: 40px;
 }
@@ -20,9 +47,6 @@
     color: black;
 }
 
-.nav{
-    padding: 32px;
-}
 
 .options {
     max-width: 201px;

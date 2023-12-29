@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100">
 
 <head>
     <meta charset="UTF-8">
@@ -28,47 +28,81 @@
     <!-- css do projeto -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class='d-flex flex-column gap-5'>
-                    <div class='d-flex flex-column border-bottom'>
-                        <p class='fs-5 pb-1'>Perfil</p>
-                        <h3>Perfil do atleta</h3>
+
+<body class="h-100 gambiarra">
+    <section class="h-100 row">
+        <div class="col-2 d-flex flex-column justify-content-between h-100 padeiro">
+            <div class="nav d-flex flex-column">
+                <div class="topo d-flex justify-content-between pb-5">
+                    <img src="assets/img/awe-logo.svg" alt="">
+                    <i class="bi bi-list ms-5"></i>
+                </div>
+                <div class="options d-flex flex-column gap-4">
+                    <div class="dashboard d-flex align-items-center gap-2">
+                        <i class="bi bi-house-door"></i>
+                        <a href="#" class="link-underline link-underline-opacity-0">Dashboard</a>
                     </div>
-                    <div>
-                        <div id="perfil-esquerda" class='d-flex flex-column gap-4'>
-                            <div id='Jr' class='card p-1 mt-2'>
-                                <img class="card-img-top align-self-center pb-2 pt-4" src="assets/img/Ellipse 8.svg">
-                                <div class="card-body">
-                                    <h4 class="card-text text-center">Jr Programador da Silva</h4>
-                                </div>
-                            </div>
-                            <div id='botoes-perfil' class='d-flex flex-column gap-2'>
-                                <button type="button" class='w-100 btn btn-primary d-flex align-items-center justify-content-center gap-1 fs-4 fw-bold p-2'>
-                                    <img src="assets/img/icon.svg" alt="">
-                                    Editar perfil
-                                </button>
-                                <button id='alterar' type="button" class='w-100 btn d-flex align-items-center justify-content-center gap-1 fs-4 fw-bold p-2'>
-                                    <img src="assets/img/cadeado.svg" alt="">
-                                    Alterar senha
-                                </button>
-                                <button id='excluir' type="button" class='w-100 btn d-flex align-items-center justify-content-center gap-1 fs-4 fw-bold p-2'>
-                                    <img src="assets/img/lixo.svg" alt="">
-                                    Excluir senha
-                                </button>
-                            </div>
+                    <div class="modalidades d-flex align-items-center gap-2">
+                        <i class="bi bi-star"></i>
+                        <a href="#" class="link-underline link-underline-opacity-0">Modalidades</a>
+                    </div>
+                    <div class="borda border-bottom"></div>
+                    <div class="log-out d-flex align-items-center gap-2">
+                        <i class="bi bi-box-arrow-right"></i>
+                        <a href="#" class="link-danger link-underline link-underline-opacity-0">Sair</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile d-flex gap-2">
+                <i class="bi bi-person-circle fs-3"></i>
+                <div class="pessoa">
+                    <p>Jr Programador</p>
+                    <p>Atleta</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-10">
+            <div class="container">
+                <div class="row">
+                    <div class='d-flex flex-column gap-5'>
+                        <div class='d-flex flex-column border-bottom'>
+                            <p class='fs-5 pb-1'>Perfil</p>
+                            <h3>Perfil do atleta</h3>
                         </div>
                         <div>
-
+                            <div id="perfil-esquerda" class='d-flex flex-column gap-4'>
+                                <div id='Jr' class='card p-1 mt-2'>
+                                    <img class="card-img-top align-self-center pb-2 pt-4" src="assets/img/Ellipse 8.svg">
+                                    <div class="card-body">
+                                        <h4 class="card-text text-center">Jr Programador da Silva</h4>
+                                    </div>
+                                </div>
+                                <div id='botoes-perfil' class='d-flex flex-column gap-2'>
+                                    <button type="button"
+                                        class='w-100 btn btn-primary d-flex align-items-center justify-content-center gap-1 fs-4 fw-bold p-2'>
+                                        <img src="assets/img/icon.svg" alt="">
+                                        Editar perfil
+                                    </button>
+                                    <button id='alterar' type="button"
+                                        class='w-100 btn d-flex align-items-center justify-content-center gap-1 fs-4 fw-bold p-2'>
+                                        <img src="assets/img/cadeado.svg" alt="">
+                                        Alterar senha
+                                    </button>
+                                    <button id='excluir' type="button"
+                                        class='w-100 btn d-flex align-items-center justify-content-center gap-1 fs-4 fw-bold p-2'>
+                                        <img src="assets/img/lixo.svg" alt="">
+                                        Excluir senha
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 </body>
+
 </html>
