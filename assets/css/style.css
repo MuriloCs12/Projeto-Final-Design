@@ -5,8 +5,8 @@
 /*Tarefa-4*/
 .bi-list, .bi-house-door, .bi-star {
     color: black;
-    
 }
+
 .bi-box-arrow-right{
     color: #FF161F;
 }
@@ -29,7 +29,7 @@
 .bi-person-circle{
     color: #BDBDBD;
 }
-.profile:hover{
+.hover:hover{
     cursor: pointer;
 }
 .bi-list{
