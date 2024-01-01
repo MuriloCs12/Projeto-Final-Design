@@ -1,8 +1,15 @@
+
+/*Tarefa-4*/
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
 .gambiarra{
     overflow-x: hidden;
 }
 
-/*Tarefa-4*/
 .bi-list, .bi-house-door, .bi-star {
     color: black;
 }
@@ -10,15 +17,65 @@
 .bi-box-arrow-right{
     color: #FF161F;
 }
+
 .pessoa :nth-child(1){
     color: #333;
     font-size: 14px;
     font-weight: 700;
 }
 
+.volei, .futebol{
+    width: 282px;
+    height: 140px;
+}
+
 .padeiro {
-    padding: 32px;
-    border-right: 1px solid #BDBDBD;
+    padding: 32px;   
+}
+
+.modalidades h5, .modalidades button, .nome-mod {
+    color: #333;
+}
+
+.nome-mod, .confirmacao, .a-pagar, .botoes :nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+}
+
+.confirmacao {
+    color: #FFF;
+    font-size: 8px;
+}
+
+.a-pagar {
+    width: 47px;
+    height: 14px;
+}
+
+.botoes :nth-child(2){
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.a-pagar{
+    background: #BB6BD9;
+}
+
+.botoes .btn-primary{
+    color: #FFF;
+}
+
+.volei .img, .futebol .img, .modalidades .detalhes{
+    height: 38px;
+}
+
+.volei .img, .futebol .img{
+    width: 38px;
+}
+
+.modalidades .detalhes {
+    width: 78px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .pessoa :nth-child(2){
@@ -98,12 +155,6 @@ p{
 #button-form{
     font-family: 'Poppins', sans-serif;
     height: 48px;
-}
-
-*{
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
 }
 
 .background{
