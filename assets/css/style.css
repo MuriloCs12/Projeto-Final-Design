@@ -1,14 +1,26 @@
 
-/*Tarefa-4*/
+
 *{
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
 }
 
+/*Barra da Esquerda*/
+
 .gambiarra{
     overflow-x: hidden;
 }
+
+.padeiro {
+    padding: 32px;   
+}
+
+.options {
+    max-width: 201px;
+}
+
+/*Página 1*/
 
 .bi-list, .bi-house-door, .bi-star {
     color: black;
@@ -29,9 +41,6 @@
     height: 140px;
 }
 
-.padeiro {
-    padding: 32px;   
-}
 
 .modalidades h5, .modalidades button, .nome-mod {
     color: #333;
@@ -106,17 +115,10 @@
     color: black;
 }
 
-
-.options {
-    max-width: 201px;
-}
-
-#perfil-esquerda {
-    width: 280px; 
-}
+/*Página 3*/
 
 #perfil-esquerda .card img{
-    width: 180px
+    width: 100px
 }
 
 #alterar{
@@ -133,6 +135,18 @@
     align-self: stretch;
     border-radius: 6px;
 }
+
+#excluir{
+    color: #FF161F;
+}
+
+
+
+
+
+
+
+
 
 .senha {
     position: relative;
@@ -245,6 +259,3 @@ form input{
     width: 170px;
 }
 
-#excluir{
-    color: #FF161F;
-}
