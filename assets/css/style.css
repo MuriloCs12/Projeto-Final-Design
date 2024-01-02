@@ -205,3 +205,9 @@ form{
 .options {
     max-width: 201px!important;
 }
+
+/* Tarefa 4 */
+
+#input-t4{
+    width: 320px;
+}
