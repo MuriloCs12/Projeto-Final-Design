@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
 
 /*Página 1*/
 
@@ -102,147 +106,7 @@
     color: black;
 }
 
-/*Página 3*/
-
-#perfil-esquerda .card img{
-    width: 100px
-}
-
-#alterar{
-    color: #0095D9;
-}
-
-#botao-enviar button{
-    display: flex;
-    height: 48px;
-    width: 368px;
-    padding: 10px 20px;
-    justify-content: center;
-    align-items: center;
-    align-self: stretch;
-    border-radius: 6px;
-}
-
-#excluir{
-    color: #FF161F;
-}
-
-
-
-
-
-
-
-
-
-.senha {
-    position: relative;
-}
-
-.bi-eye-slash {
-    color: #307FE2;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    right: 10px;
-    cursor: pointer;
-}
-
-p{
-    margin: 0;
-    padding: 0;
-}
-
-#button-form{
-    font-family: 'Poppins', sans-serif;
-    height: 48px;
-}
-
-.background{
-    background-image: url(../img/background\ 2.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-
-.barra-azul{
-    height: 4px;
-    width: 214.55px;
-    background-color: #307FE2;
-    border-radius: 100px;
-}
-
-#façalogin h1{
-    color: #307FE2;
-}
-
-#façalogin p{
-    font-size: 16.6px;
-}
-
-#seta{
-    font-family: 'Lilita One', sans-serif;
-    height: 60px;
-    width: 60px;
-}
-
-#bloco-login{
-  margin-top: 250px;
- 
-}
-
-#cadastrar{
-    font-size: 12px;
-}
-
-form input{
-    border-radius: 5px;
-    padding: 10px;
-    border: 2px solid #828282;
-}
-
-form{
-    position: relative;
-}
-
-/*form img{
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translate(0, -50%);
-}*/
-
-.hhh{
-    min-height: 953px;
-}
-
-form input{
-    border-color: #BDBDBD;
-}
-
-
-#cadastrar a{
-    font-size: 12px;
-}
-
-/* Tarefa 4 */
-
-/*Barra da Esquerda*/
-
-.gambiarra{
-    overflow-x: hidden;
-}
-
-.padeiro {
-    padding: 32px;   
-    padding-left: 40px;
-}
-
-.options {
-    max-width: 201px!important;
-}
-
+/*Página 2*/
 
 #home{
     color: #0095D9;
@@ -282,7 +146,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     background-image: url(/assets/img/Vector.svg);
 }
 
-
 .seta {
     -webkit-appearance: none;
     background-image: url('/assets/img/setadireita.svg');
@@ -291,3 +154,54 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     padding-left: 10px!important; 
 }
 
+form input{
+    border-radius: 5px;
+    padding: 10px;
+    border: 2px solid #828282;
+}
+
+form{
+    position: relative;
+}
+
+/*Página 3*/
+
+#perfil-esquerda .card img{
+    width: 100px
+}
+
+#alterar{
+    color: #0095D9;
+}
+
+#botao-enviar button{
+    display: flex;
+    height: 48px;
+    width: 368px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 6px;
+}
+
+#excluir{
+    color: #FF161F;
+}
+
+
+
+/*Barra da Esquerda*/
+
+.gambiarra{
+    overflow-x: hidden;
+}
+
+.padeiro {
+    padding: 32px;   
+    padding-left: 40px;
+}
+
+.options {
+    max-width: 201px!important;
+}
