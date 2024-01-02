@@ -6,19 +6,6 @@
     margin: 0;
 }
 
-/*Barra da Esquerda*/
-
-.gambiarra{
-    overflow-x: hidden;
-}
-
-.padeiro {
-    padding: 32px;   
-}
-
-.options {
-    max-width: 201px;
-}
 
 /*Página 1*/
 
@@ -219,12 +206,12 @@ form{
     position: relative;
 }
 
-form img{
+/*form img{
     position: absolute;
     top: 50%;
     right: 10px;
     transform: translate(0, -50%);
-}
+}*/
 
 .hhh{
     min-height: 953px;
@@ -240,6 +227,22 @@ form input{
 }
 
 /* Tarefa 4 */
+
+/*Barra da Esquerda*/
+
+.gambiarra{
+    overflow-x: hidden;
+}
+
+.padeiro {
+    padding: 32px;   
+    padding-left: 40px;
+}
+
+.options {
+    max-width: 201px!important;
+}
+
 
 #home{
     color: #0095D9;
@@ -257,5 +260,34 @@ form input{
     background-color: #0095D9;
     border: none;
     width: 170px;
+}
+.fw-bold-600{
+    font-weight: 600!important;
+}
+.w-auto{
+    max-width: 258px;
+}
+.bg-body-color{
+    border-color:#E0E0E0!important;
+    background-color:#F2F2F2!important;
+}
+.p-10{
+    padding: 10px!important;
+}
+.border-color{
+    border:#E0E0E0 solid 1px !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url(/assets/img/Vector.svg);
+}
+
+
+.seta {
+    -webkit-appearance: none;
+    background-image: url('/assets/img/setadireita.svg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+    padding-left: 10px!important; 
 }
 
