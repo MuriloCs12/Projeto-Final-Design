@@ -72,8 +72,12 @@ p{
 
 /* Página 8 */
 
-.gerar{
+.gerarrelatorio{
     color: #0095D9;
+}
+
+.gerarrelatorio:hover{
+    color: white;
 }
 
 .pesquisar{
