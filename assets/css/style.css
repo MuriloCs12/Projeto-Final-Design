@@ -58,6 +58,25 @@ p{
     color: #0095D9;
 }
 
+.pesquisar{
+    width: 394px;
+}
+
+.pesquisar::placeholder{
+    font-size: 14px;
+}
+
+.iconepesquisa{
+    position: absolute;
+    width: 20px;
+    top: 11px;
+    left: 16px;
+}
+
+.pesquisarbloco{
+    position: relative;
+}
+
 /* Página 9 */
 
 #tipo{
