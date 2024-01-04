@@ -13,14 +13,6 @@ p{
 
 /*Página 1*/
 
-.bi-list, .bi-house-door, .bi-star {
-    color: black;
-}
-
-.bi-box-arrow-right{
-    color: #FF161F;
-}
-
 .pessoa :nth-child(1){
     color: #333;
     font-size: 14px;
@@ -89,22 +81,14 @@ p{
 .hover:hover{
     cursor: pointer;
 }
-.bi-list{
-    font-size: 40px;
-}
 
-.bi-house-door, .bi-star, .bi-box-arrow-right{
-    font-size: 28px;
-}
+
 
 .log-out a, .modalidades a, .dashboard a{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
-.dashboard a, .modalidades a{
-    color: black;
-}
 
 /*Página 2*/
 
@@ -204,4 +188,24 @@ form{
 
 .options {
     max-width: 201px!important;
+}
+
+.bi-house-door, .bi-star, .bi-box-arrow-right{
+    font-size: 28px;
+}
+
+.bi-list, .bi-house-door, .bi-star {
+    color: black;
+}
+
+.bi-box-arrow-right{
+    color: #FF161F;
+}
+
+.dashboard a, .modalidades a{
+    color: black;
+}
+
+.bi-list{
+    font-size: 40px;
 }
