@@ -92,6 +92,10 @@ p{
     background-color: #fff;
 }
 
+.formcategoria{
+    padding: 10px;
+}
+
 .iconepesquisa{
     position: absolute;
     width: 20px;
@@ -113,13 +117,30 @@ p{
     top: 16px;
 }
 
-.especificações{
-    gap: 180px;
+.esptitulo :nth-child(1){
+    width: 265px;
 }
 
-.individual{
+.esptitulo :nth-child(2){
+    width: 170px;
+}
+
+.listainsana p{
+    font-size: 14px;
+}
+
+.nomemodalidade{
+    width: 264px;
+}
+
+.participantes{
+    width: 300px;
+}
+
+.individual{    
     background-color: #E9F8FF;
     color: #0095D9;
+    margin-right: 140px;
 }
 
 /* Página 9 */
@@ -151,6 +172,7 @@ p{
 /*Primeira página 11 - Categorias*/
 
 /*Segunda página 11 - Cadastramento de Categoria*/
+
 .formulario-ultima-pg, .formulario-pg-dez{
     color: #333333;
 }
