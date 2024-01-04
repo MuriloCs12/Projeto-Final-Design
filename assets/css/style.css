@@ -106,6 +106,7 @@ p{
 
 #modal{
     width: 172px;
+    height: max-content;
 }
 
 #home{
@@ -113,3 +114,14 @@ p{
 }
 
 /*segunda página 11*/
+.formulario-ultima-pg{
+    color: #333333;
+}
+.formulario-ultima-pg label{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.botao-azul-cadastrar button{
+    width: 164px;
+    padding: 8px 16px;
+}
