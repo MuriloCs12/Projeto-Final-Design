@@ -82,12 +82,23 @@
                         </div>
                     </div>
                 </div>
-                <form class="rounded-top bg-body-secondary p-3">
+                <form action='get' class="rounded-top bg-body-secondary p-3 d-flex gap-2">
                     <div class="pesquisarbloco ms-3">
                         <img class='iconepesquisa' src="assets/img/Pesquisa.svg" alt="">
                         <input type="text" class='rounded p-2 ps-5 pesquisar' placeholder="Pesquise por uma modalidade">
                     </div>
+                    <fieldset disabled class='categoriabloco'>
+                        <input type="text" class='rounded p-2 ps-3 categoria' placeholder="Filtrar por categoria">
+                        <img class='setaazul' src="assets/img/setadireita.svg" alt="">
+                    </fieldset>
+                    <fieldset disabled class='cursobloco'>
+                        <input type="text" class='rounded p-2 ps-3 curso' placeholder="Curso">
+                        <img class='setaazul' src="assets/img/setadireita.svg" alt="">
+                    </fieldset>
                 </form>
+                <ul class="list-group">
+                    
+                </ul>
             </div>
         </div>
     </section>

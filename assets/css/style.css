@@ -84,6 +84,14 @@ p{
     font-size: 14px;
 }
 
+.categoria::placeholder, .curso::placeholder{
+    color: black;
+}
+
+.categoria, .curso{
+    background-color: #fff;
+}
+
 .iconepesquisa{
     position: absolute;
     width: 20px;
@@ -91,8 +99,18 @@ p{
     left: 16px;
 }
 
-.pesquisarbloco{
+.pesquisarbloco, .categoriabloco, .cursobloco{
     position: relative;
+}
+
+.curso{
+    width: 105px;
+}
+
+.setaazul{
+    position: absolute;
+    right: 15px;
+    top: 16px;
 }
 
 /* Página 9 */
