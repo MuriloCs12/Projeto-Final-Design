@@ -82,6 +82,7 @@ p{
 
 .pesquisar{
     width: 394px;
+    border: 1px solid var(--Gray-5, #E0E0E0);
 }
 
 .pesquisar::placeholder{
@@ -94,6 +95,7 @@ p{
 
 .categoria, .curso{
     background-color: #fff;
+    border: 1px solid var(--Gray-5, #E0E0E0);
 }
 
 .formcategoria{
