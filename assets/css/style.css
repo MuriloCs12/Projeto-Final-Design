@@ -16,7 +16,6 @@ p{
 
 .gambiarra{
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .padeiro {
@@ -128,11 +127,6 @@ p{
 
 .listainsana p{
     font-size: 14px;
-}
-
-.esptitulo, .especificações{
-    padding-top: 12px;
-    padding-bottom: 12px;
 }
 
 .nomemodalidade{
