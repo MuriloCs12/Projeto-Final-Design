@@ -51,6 +51,19 @@ p{
     cursor: pointer;
 }
 
+.bi-person-circle{
+    color: #BDBDBD;
+}
+
+.log-out a, .modalidades a, .dashboard a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.pessoa :nth-child(1){
+    color: #333;
+    font-size: 14px;
+}
 
 /* Página 8 */
 
