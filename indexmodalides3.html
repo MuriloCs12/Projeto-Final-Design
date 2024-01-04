@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modalidades</title>
+    <title>Cadastramento de Modalidade</title>
 
     <!-- bootstrap do projeto -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -59,6 +59,59 @@
                     <p class='fw-bold'>Jr Programador</p>
                     <p>Atleta</p>
                 </div>
+            </div>
+        </div>
+        <div class="col-10 mt-2">
+            <div class="container padeiro">
+                <div id="label" class="d-flex flex-column gap-3 mb-2">
+                    <div class="bread-crumb d-flex gap-2">
+                        <a id="home" class="link-underline link-underline-opacity-0" href="#">Modalidades</a>
+                        <img src="assets/img/icon.svg">
+                        <p>Cadastro</p>
+                    </div>
+                    <h5 class="cadastramento-categoria pb-2 fw-semibold border-bottom">Cadastramento de Modalidade</h5>
+                </div>
+                <section class="d-flex mt-3">
+                    <div class="col-6">
+                        <form action="get" class="formulario-pg-dez p-4 border rounded">
+                            <div class="col-8 pb-3">
+                                <label for="receber" class="form-label fw-semibold">Nome</label>
+                                <input id="receber" type="text" class="form-control" placeholder="Digite o nome da modalidade">
+                            </div>
+                            <label for="receber" class="form-label fw-semibold">Tipo</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Coletiva
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                  Individual
+                                </label>
+                            </div>
+                            <label for="receber" class="form-label fw-semibold">Ícone da modalidade</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Selecione</option>
+                                <option value="1">🏊</option>
+                                <option value="2">🏐</option>
+                                <option value="3">⚽</option>
+                                <option value="4">🏃</option>
+                                <option value="5">🏀</option>
+                                <option value="6">🎾</option>
+                                <option value="7">⚾</option>
+                            </select>                          
+                        </form>
+                        <div class="botao-azul-cadastrar d-flex justify-content-end pt-4">
+                            <a href="indexmodalides.html">
+                                <button class="btn btn-primary fw-bold">
+                                    Cadastrar
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
     </section>

@@ -145,11 +145,16 @@ p{
     color: #0095D9;
 }
 
-/*segunda página 11*/
-.formulario-ultima-pg{
+/*Página 10*/
+
+
+/*Primeira página 11 - Categorias*/
+
+/*Segunda página 11 - Cadastramento de Categoria*/
+.formulario-ultima-pg, .formulario-pg-dez{
     color: #333333;
 }
-.formulario-ultima-pg label{
+.formulario-ultima-pg label, .formulario-pg-dez label{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
