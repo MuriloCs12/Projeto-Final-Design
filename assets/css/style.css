@@ -113,6 +113,15 @@ p{
     top: 16px;
 }
 
+.especificações{
+    gap: 180px;
+}
+
+.individual{
+    background-color: #E9F8FF;
+    color: #0095D9;
+}
+
 /* Página 9 */
 
 #tipo{
