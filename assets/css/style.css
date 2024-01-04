@@ -27,12 +27,24 @@ p{
     max-width: 201px!important;
 }
 
+.bi-house-door, .bi-star, .bi-box-arrow-right{
+    font-size: 28px;
+}
+
 .bi-list, .bi-house-door, .bi-star {
     color: black;
 }
 
 .bi-box-arrow-right{
     color: #FF161F;
+}
+
+.dashboard a, .modalidades a{
+    color: black;
+}
+
+.bi-list{
+    font-size: 40px;
 }
 
 /* Tarefa 5 */
