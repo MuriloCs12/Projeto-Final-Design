@@ -47,6 +47,10 @@ p{
     font-size: 40px;
 }
 
+.hover:hover{
+    cursor: pointer;
+}
+
 
 /* Página 8 */
 
