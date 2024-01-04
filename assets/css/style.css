@@ -65,6 +65,11 @@ p{
     font-size: 14px;
 }
 
+.pessoa :nth-child(2){
+    color: #4F4F4F;
+    font-size: 12px;
+}
+
 /* Página 8 */
 
 .gerar{
@@ -79,6 +84,14 @@ p{
     font-size: 14px;
 }
 
+.categoria::placeholder, .curso::placeholder{
+    color: black;
+}
+
+.categoria, .curso{
+    background-color: #fff;
+}
+
 .iconepesquisa{
     position: absolute;
     width: 20px;
@@ -86,8 +99,18 @@ p{
     left: 16px;
 }
 
-.pesquisarbloco{
+.pesquisarbloco, .categoriabloco, .cursobloco{
     position: relative;
+}
+
+.curso{
+    width: 105px;
+}
+
+.setaazul{
+    position: absolute;
+    right: 15px;
+    top: 16px;
 }
 
 /* Página 9 */
