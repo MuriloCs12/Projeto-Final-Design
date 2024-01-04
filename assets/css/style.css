@@ -163,11 +163,13 @@ p{
 }
 
 #home{
-    color: #0095D9;
+    color:#0095D9;
 }
 
 /*Página 10*/
-
+.form-check label{
+    color:#4F4F4F;
+}
 
 /*Primeira página 11 - Categorias*/
 
@@ -176,7 +178,7 @@ p{
 .formulario-ultima-pg, .formulario-pg-dez{
     color: #333333;
 }
-.formulario-ultima-pg label, .formulario-pg-dez label{
+.formulario-ultima-pg label, .formulario-pg-dez label, .form-check label{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
