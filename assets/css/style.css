@@ -64,11 +64,6 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
-.pessoa :nth-child(2){
-    color: #4F4F4F;
-    font-size: 12px;
-}
-
 
 /*Página 2*/
 
@@ -207,4 +202,9 @@ form{
 .pessoa :nth-child(1){
     color: #333;
     font-size: 14px;
+}
+
+.pessoa :nth-child(2){
+    color: #4F4F4F;
+    font-size: 12px;
 }
