@@ -82,62 +82,111 @@
                         </div>
                     </div>
                 </div>
-                <form action='get' class="rounded-top bg-body-secondary p-3 d-flex gap-2">
-                    <div class="pesquisarbloco ms-3">
-                        <img class='iconepesquisa' src="assets/img/Pesquisa.svg" alt="">
-                        <input type="text" class='rounded p-2 ps-5 pesquisar' placeholder="Pesquise por uma modalidade">
-                    </div>
-                    <fieldset disabled class='categoriabloco'>
-                        <input type="text" class='rounded p-2 ps-3 categoria' placeholder="Filtrar por categoria">
-                        <img class='setaazul' src="assets/img/setadireita.svg" alt="">
-                    </fieldset>
-                    <fieldset disabled class='cursobloco'>
-                        <input type="text" class='rounded p-2 ps-3 curso' placeholder="Curso">
-                        <img class='setaazul' src="assets/img/setadireita.svg" alt="">
-                    </fieldset>
-                </form>
-                <ul class="list-group">
-                    <li class="especificações   list-group-item d-flex">
-                        <p>Modalidade</p>
-                        <p>Tipo</p>
-                        <p>Inscritos</p>
-                    </li>
-                    <li class="list-group-item d-flex align-items-center">
-                        <img src="assets/img/caracorrendo.png" alt="">
-                        <p>Corrida</p>
-                        <span class="individual badge badge-pill badge-primary">Individual</span>
-                    </li>
-                    <li class="list-group-item">
-
-                    </li>
-                    <li class="list-group-item">
-
-                    </li>
-                    <li class="list-group-item">
-
-                    </li>
-                    <li class="list-group-item">
-
-                    </li>
-                    <li class="list-group-item">
-
-                    </li>
-                    <li class="list-group-item">
-                        
-                    </li>
-                    <li class="list-group-item">
-
-                    </li>
-                    <li class="list-group-item">
-
-                    </li>
-                    <li class="list-group-item">
-
-                    </li>
-                    <li class="list-group-item">
-
-                    </li>
-                </ul>
+                <div class="listainsana d-flex flex-column gap-1">
+                    <form action='get' class="formcategoria rounded-top bg-body-secondary d-flex gap-2">
+                        <div class="pesquisarbloco ms-3">
+                            <img class='iconepesquisa' src="assets/img/Pesquisa.svg" alt="">
+                            <input type="text" class='rounded p-2 ps-5 pesquisar' placeholder="Pesquise por uma modalidade">
+                        </div>
+                        <fieldset disabled class='categoriabloco'>
+                            <input type="text" class='rounded p-2 ps-3 categoria' placeholder="Filtrar por categoria">
+                            <img class='setaazul' src="assets/img/setadireita.svg" alt="">
+                        </fieldset>
+                        <fieldset disabled class='cursobloco'>
+                            <input type="text" class='rounded p-2 ps-3 curso' placeholder="Curso">
+                            <img class='setaazul' src="assets/img/setadireita.svg" alt="">
+                        </fieldset>
+                    </form>
+                    <ul class="listamodalidades list-group rounded-0 mb-2">
+                        <li class="esptitulo list-group-item d-flex gap-2">
+                            <p class="fw-bold">Modalidade</p>
+                            <p class="fw-bold me-5">Tipo</p>
+                            <p class="fw-bold">Inscritos</p>
+                        </li>
+                        <li class="especificações list-group-item d-flex align-items-center gap-2">
+                            <div class="nomemodalidade d-flex gap-4 align-items-center">
+                                <img src="assets/img/caracorrendo.png" alt="">
+                                <p>Corrida</p>
+                            </div>
+                            <span class="individual badge badge-pill badge-primary">Individual</span>
+                            <p class="participantes">10 participantes</p>
+                            <div class='prancheta'><img src="assets/img/prancheta.svg" alt=""></div>
+                        </li>
+                        <li class="especificações list-group-item d-flex align-items-center gap-2">
+                            <div class="nomemodalidade d-flex gap-4 align-items-center">
+                                <img src="assets/img/caracorrendo.png" alt="">
+                                <p>Beach Tennis</p>
+                            </div>
+                            <span class="individual badge badge-pill badge-primary">Individual</span>
+                            <p class="participantes">10 participantes</p>
+                            <div class='prancheta'><img src="assets/img/prancheta.svg" alt=""></div>
+                        </li>
+                        <li class="especificações list-group-item d-flex align-items-center gap-2">
+                            <div class="nomemodalidade d-flex gap-4 align-items-center">
+                                <img src="assets/img/caracorrendo.png" alt="">
+                                <p>Futebol 11</p>
+                            </div>
+                            <span class="individual badge badge-pill badge-primary">Individual</span>
+                            <p class="participantes">10 participantes</p>
+                            <div class='prancheta'><img src="assets/img/prancheta.svg" alt=""></div>
+                        </li>
+                        <li class="especificações list-group-item d-flex align-items-center gap-2">
+                            <div class="nomemodalidade d-flex gap-4 align-items-center">
+                                <img src="assets/img/caracorrendo.png" alt="">
+                                <p>Futsal</p>
+                            </div>
+                            <span class="individual badge badge-pill badge-primary">Individual</span>
+                            <p class="participantes">10 participantes</p>
+                            <div class='prancheta'><img src="assets/img/prancheta.svg" alt=""></div>
+                        </li>
+                        <li class="especificações list-group-item d-flex align-items-center gap-2">
+                            <div class="nomemodalidade d-flex gap-4 align-items-center">
+                                <img src="assets/img/caracorrendo.png" alt="">
+                                <p>jiu-jitsu</p>
+                            </div>
+                            <span class="individual badge badge-pill badge-primary">Individual</span>
+                            <p class="participantes">10 participantes</p>
+                            <div class='prancheta'><img src="assets/img/prancheta.svg" alt=""></div>
+                        </li>
+                        <li class="especificações list-group-item d-flex align-items-center gap-2">
+                            <div class="nomemodalidade d-flex gap-4 align-items-center">
+                                <img src="assets/img/caracorrendo.png" alt="">
+                                <p>Natação</p>
+                            </div>
+                            <span class="individual badge badge-pill badge-primary">Individual</span>
+                            <p class="participantes">10 participantes</p>
+                            <div class='prancheta'><img src="assets/img/prancheta.svg" alt=""></div>
+                        </li>
+                        <li class="especificações list-group-item d-flex align-items-center gap-2">
+                            <div class="nomemodalidade d-flex gap-4 align-items-center">
+                                <img src="assets/img/caracorrendo.png" alt="">
+                                <p>Tênis de Mesa</p>
+                            </div>
+                            <span class="individual badge badge-pill badge-primary">Individual</span>
+                            <p class="participantes">10 participantes</p>
+                            <div class='prancheta'><img src="assets/img/prancheta.svg" alt=""></div>
+                        </li>
+                        <li class="especificações list-group-item d-flex align-items-center gap-2">
+                            <div class="nomemodalidade d-flex gap-4 align-items-center">
+                                <img src="assets/img/caracorrendo.png" alt="">
+                                <p>Vôlei de quadra</p>
+                            </div>
+                            <span class="individual badge badge-pill badge-primary">Individual</span>
+                            <p class="participantes">10 participantes</p>
+                            <div class='prancheta'><img src="assets/img/prancheta.svg" alt=""></div>
+                        </li>
+                        <li class="especificações list-group-item d-flex align-items-center gap-2">
+                            <div class="nomemodalidade d-flex gap-4 align-items-center">
+                                <img src="assets/img/caracorrendo.png" alt="">
+                                <p>Xadrez</p>
+                            </div>
+                            <span class="individual badge badge-pill badge-primary">Individual</span>
+                            <p class="participantes">10 participantes</p>
+                            <div class='prancheta'><img src="assets/img/prancheta.svg" alt=""></div>
+                        </li>
+                    </ul>
+                    <p class="align-self-end">9 Modalidades exibidas</p>
+                </div>
             </div>
         </div>
     </section>
