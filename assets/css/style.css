@@ -78,9 +78,7 @@ p{
 .bi-person-circle{
     color: #BDBDBD;
 }
-.hover:hover{
-    cursor: pointer;
-}
+
 
 
 
@@ -209,4 +207,8 @@ form{
 
 .bi-list{
     font-size: 40px;
+}
+
+.hover:hover{
+    cursor: pointer;
 }
