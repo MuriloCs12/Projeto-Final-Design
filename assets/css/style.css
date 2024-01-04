@@ -51,11 +51,43 @@ p{
     cursor: pointer;
 }
 
+.bi-person-circle{
+    color: #BDBDBD;
+}
+
+.log-out a, .modalidades a, .dashboard a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.pessoa :nth-child(1){
+    color: #333;
+    font-size: 14px;
+}
 
 /* Página 8 */
 
 .gerar{
     color: #0095D9;
+}
+
+.pesquisar{
+    width: 394px;
+}
+
+.pesquisar::placeholder{
+    font-size: 14px;
+}
+
+.iconepesquisa{
+    position: absolute;
+    width: 20px;
+    top: 11px;
+    left: 16px;
+}
+
+.pesquisarbloco{
+    position: relative;
 }
 
 /* Página 9 */
