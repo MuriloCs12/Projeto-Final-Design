@@ -39,7 +39,7 @@ p{
     color: #FF161F;
 }
 
-.dashboard a, .modalidades a{
+.dashboard, .modalidades{
     color: black;
 }
 
