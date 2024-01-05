@@ -172,6 +172,21 @@ p{
     color:#0095D9;
 }
 
+#tag-aguar{
+    background-color: #FFF8F2;
+    color: #E59146;
+}
+
+.tag{
+    padding: 2px 6px;
+    border-radius: 50px;
+}
+
+.open-s{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 /*Página 10*/
 .form-check label{
     color:#4F4F4F;
