@@ -7,10 +7,12 @@
 - Ronald
 
 ## Tarefas (21/12/2023)
-
 - [x] Criação do repositório (Murilo)
 - [x] Envio de convites aos colaboradores (Murilo)
 - [x] Montagem de página de login (Todos)
+- [x] Montagem das páginas de redefinição de senha (Todos)
+- [x] Montagem do Dashboard (Todos)
+- [] Montagem das páginas de modalidade (Todos)
 
 - [x] Tela 2 (Clara e Ronald)
 - [x] Tela 3 (Murilo)
