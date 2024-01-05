@@ -179,6 +179,9 @@ p{
 
 /*Primeira página 11 - Categorias*/
 
+.fw-bold-600{
+    font-weight: 600;
+}
 /*Segunda página 11 - Cadastramento de Categoria*/
 
 .formulario-ultima-pg, .formulario-pg-dez{
