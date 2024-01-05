@@ -1,34 +1,7 @@
-#e-mail, #e-mail-redef{
-    font-family: 'Open Sans', sans-serif;
-}
-
-#e-mail-redef{
-    font-weight: 600;
-}
-
-#informacao-email form input, #informacao-senha form input{
-    display: flex;
-    padding: 10px;
-    align-items: center;
-    gap: 10px;
-    align-self: stretch;
-    border-radius: 4px;
-    border: 1px solid var(--Gray-4, #BDBDBD);
-    width: 368px;
-    height: 42px;
-}
-
-.senha {
-    position: relative;
-}
-
-.bi-eye-slash {
-    color: #307FE2;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    right: 10px;
-    cursor: pointer;
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 p{
@@ -36,51 +9,102 @@ p{
     padding: 0;
 }
 
-#button-form{
-    font-family: 'Poppins', sans-serif;
-    height: 48px;
+/*Página 1*/
+
+.volei, .futebol{
+    width: 282px;
+    height: 140px;
 }
 
-*{
-    font-family: 'Poppins', sans-serif;
+
+.modalidades h5, .modalidades button, .nome-mod {
+    color: #333;
 }
 
-.background{
-    background-image: url(../img/background\ 2.svg);
+.nome-mod, .confirmacao, .a-pagar, .botoes :nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+}
+
+.confirmacao {
+    color: #FFF;
+    font-size: 8px;
+}
+
+.a-pagar {
+    width: 47px;
+    height: 14px;
+}
+
+.botoes :nth-child(2){
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+
+.a-pagar{
+    background: #BB6BD9;
+}
+
+.botoes .btn-primary{
+    color: #FFF;
+}
+
+.volei .img, .futebol .img, .modalidades .detalhes{
+    height: 38px;
+}
+
+.volei .img, .futebol .img{
+    width: 38px;
+}
+
+.modalidades .detalhes {
+    width: 78px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Página 2*/
+
+#home{
+    color: #0095D9;
+}
+
+#form-p{
+    padding: 0;
+    width: 650px;
+}
+
+#label{
+    padding: 0;
+}
+
+.fw-bold-600{
+    font-weight: 600!important;
+}
+.w-auto{
+    max-width: 258px;
+}
+.bg-body-color{
+    border-color:#E0E0E0!important;
+    background-color:#F2F2F2!important;
+}
+.p-10{
+    padding: 10px!important;
+}
+.border-color{
+    border:#E0E0E0 solid 1px !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-image: url(/assets/img/Vector.svg);
+}
+
+.seta {
+    -webkit-appearance: none;
+    background-image: url('/assets/img/setadireita.svg');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-}
-
-
-.barra-azul{
-    height: 4px;
-    width: 214.55px;
-    background-color: #307FE2;
-    border-radius: 100px;
-}
-
-#façalogin h1{
-    color: #307FE2;
-}
-
-#façalogin p{
-    font-size: 16.6px;
-}
-
-#seta{
-    font-family: 'Lilita One', sans-serif;
-    height: 60px;
-    width: 60px;
-}
-
-#bloco-login{
-  margin-top: 250px;
- 
-}
-
-#cadastrar{
-    font-size: 12px;
+    background-position: calc(100% - 15px) center;
+    padding-left: 10px!important; 
 }
 
 form input{
@@ -93,18 +117,77 @@ form{
     position: relative;
 }
 
-form img{
-    position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translate(0, -50%);
+/*Página 3*/
+
+#perfil-esquerda .card img{
+    width: 100px
 }
 
-form input{
-    border-color: #BDBDBD;
+#alterar{
+    color: #0095D9;
+}
+
+#excluir{
+    color: #FF161F;
 }
 
 
-#cadastrar a{
+
+/*Barra da Esquerda*/
+
+.gambiarra{
+    overflow-x: hidden;
+}
+
+.padeiro {
+    padding: 32px;   
+    padding-left: 40px;
+}
+
+.options {
+    max-width: 201px!important;
+}
+
+.bi-house-door, .bi-star, .bi-box-arrow-right{
+    font-size: 28px;
+}
+
+.bi-list, .bi-house-door, .bi-star {
+    color: black;
+}
+
+.bi-box-arrow-right{
+    color: #FF161F;
+}
+
+.dashboard, .modalidades{
+    color: black;
+}
+
+.bi-list{
+    font-size: 40px;
+}
+
+.hover:hover{
+    cursor: pointer;
+}
+
+.bi-person-circle{
+    color: #BDBDBD;
+}
+
+.log-out a, .modalidades a, .dashboard a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.pessoa :nth-child(1){
+    color: #333;
+    font-size: 14px;
+}
+
+.pessoa :nth-child(2){
+    color: #4F4F4F;
     font-size: 12px;
 }
+
