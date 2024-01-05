@@ -80,11 +80,6 @@ p{
     padding: 0;
 }
 
-#button{
-    background-color: #0095D9;
-    border: none;
-    width: 170px;
-}
 .fw-bold-600{
     font-weight: 600!important;
 }
@@ -178,7 +173,7 @@ form{
     color: #FF161F;
 }
 
-.dashboard a, .modalidades a{
+.dashboard, .modalidades{
     color: black;
 }
 

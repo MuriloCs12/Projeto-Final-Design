@@ -18,17 +18,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;700&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <link
-        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;700&display=swap"
         rel="stylesheet">
 
     <!-- css do projeto -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    
 </head>
 
 <body class="h-100 gambiarra">
@@ -39,20 +37,24 @@
                     <img src="assets/img/awe-logo.svg" alt="">
                     <i class="bi bi-list ms-5 hover"></i>
                 </div>
-                <div class="options d-flex flex-column gap-4">
-                    <div class="dashboard d-flex align-items-center gap-2 hover">
-                        <i class="bi ps-2 bi-house-door"></i>
-                        <a href="#" class="link-underline link-underline-opacity-0">Dashboard</a>
-                    </div>
+                <div class=" d-flex flex-column gap-4">
+                    <a href="Dashboard.html" class="link-underline link-underline-opacity-0">
+                        <div class="dashboard d-flex align-items-center gap-2 hover">
+                            <i class="bi ps-2 bi-house-door"></i>
+                            Dashboard
+                        </div>
+                    </a>
                     <div class="modalidades d-flex align-items-center gap-2 hover">
                         <i class="bi ps-2 bi-star"></i>
-                        <a href="#" class="link-underline link-underline-opacity-0">Modalidades</a>
+                        Modalidades
                     </div>
                     <div class="borda border-bottom"></div>
-                    <div class="log-out d-flex align-items-center gap-2 hover">
-                        <i class="bi ps-2 bi-box-arrow-right"></i>
-                        <a href="#" class="link-danger link-underline link-underline-opacity-0">Sair</a>
-                    </div>
+                    <a href="Tela-de-Login.html"  class='link-danger link-underline link-underline-opacity-0'>
+                        <div class="log-out d-flex align-items-center gap-2">
+                            <i class="bi bi-box-arrow-right hover"></i>
+                            Sair
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="profile d-flex gap-2 hover">
@@ -68,73 +70,64 @@
                 <div class='d-flex flex-column gap-5'>
                     <div class='d-flex flex-column border-bottom'>
                         <p class='fs-6 pb-3'>Perfil</p>
-                        <h5 class='fw-bold-600'>Edição de perfil</h5>
+                        <h5 class='fw-bold'>Perfil do atleta</h5>
                     </div>
                     <div class="row gap-3">
                         <div id="perfil-esquerda" class='col-2 d-flex flex-column gap-4'>
-                            <div id='Jr' class='card p-1 border-color'>
+                            <div id='Jr' class='card p-1'>
                                 <img class="card-img-top align-self-center pb-2 pt-4" src="assets/img/Group 53761.png">
                                 <div class="card-body">
-                                    <p class="card-text text-center fw-bold-600">Jr Programador da Silva</p>
+                                    <p class="card-text text-center fw-bold">Jr Programador da Silva</p>
                                 </div>
                             </div>
                             <div id='botoes-perfil' class='d-flex flex-column gap-2'>
-                                <button id="button" type="button"
-                                    class='w-100 btn btn-primary d-flex align-items-center justify-content-center gap-1  fw-bold-600 p-2'>
-                                    <img src="assets/img/lapis.svg" alt="">
-                                    Editar perfil
-                                </button>
-                                <button id='alterar' type="button"
-                                    class='w-100 btn d-flex align-items-center justify-content-center gap-1 fs-6 fw-bold-600 p-2'>
-                                    <img src="assets/img/cadeado.svg" alt="">
-                                    Alterar senha
-                                </button>
+                                <a href="Editar-Perfil.html" class='link-underline link-underline-opacity-0'>
+                                    <button type="button"
+                                        class='w-100 btn btn-primary d-flex align-items-center justify-content-center gap-1  fw-bold p-2'>
+                                        <img src="assets/img/lapis.svg" alt="">
+                                        Editar perfil
+                                    </button>
+                                </a>
+                                <a href="Perfil-senha.html" class='link-underline link-underline-opacity-0'>
+                                    <button id='alterar' type="button"
+                                        class='w-100 btn d-flex align-items-center justify-content-center gap-1 fs-6 fw-bold p-2'>
+                                        <img src="assets/img/cadeado.svg" alt="">
+                                        Alterar senha
+                                    </button>
+                                </a>
                                 <button id='excluir' type="button"
-                                    class='w-100 btn d-flex align-items-center justify-content-center gap-1 fs-6 fw-bold-600 p-2'>
+                                    class='w-100 btn d-flex align-items-center justify-content-center gap-1 fs-6 fw-bold p-2'>
                                     <img src="assets/img/lixo.svg" alt="">
                                     Excluir senha
                                 </button>
                             </div>
                         </div>
-                        <div class="col-7 card border-color"> 
-                            <form class="p-3 py-4 d-flex flex-column gap-4">
-                                <div class="d-flex gap-3">
-                                    <div class="col-4">
-                                        <label name='CPF' class="pb-1 fw-bold-600">CPF</label>
-                                        <input class="border-color bg-body-color w-100" placeholder="###.###.###-##" type="text" id="cpf">
-                                    </div>
-                                    <div class="col-7">
-                                        <label name='email' class="pb-1 fw-bold-600">E-mail</label>
-                                        <input class="border-color bg-body-color w-100" placeholder="jrprogramador@gmail.com" type="text" id="email">
-                                    </div>
-                                </div>
-                                <div class="col-7">
-                                    <label name='Nome' class="pb-1 fw-bold-600">Nome</label>
-                                    <input class="w-100 border-color" value="jrprogramador@gmail.com" type="text" id="Nome">
-                                </div>
-                                <div class="col-4">
-                                    <label name='Nascimento' class="pb-1 fw-bold-600">Nascimento</label>
-                                        <input class=" border-color w-100" type="date" id="Nascimento" name="date">
-
-                                </div>
-                                
-                                <div class="d-flex flex-column col-4">
-                                    <label name='Genero' class="pb-1 fw-bold-600">Gênero</label>
-
-                                    <select class="seta p-10 rounded border-color" name="genero" id="genero">
-                                        <option value="Masculino" >Masculino</option>
-                                    </select>
-                                </div>
-                                <div class="w-auto">
-                                    <label name='UF' class="pb-1 fw-bold-600">UF</label>
-                                    <input class="border-color  bg-body-color w-100" value="Unidade Federativa do Atleta" type="text" id="cpf">
-                                </div>
-                                <div class="col-7">
-                                    <label name='cidade' class="pb-1 fw-bold-600">Cidade</label>
-                                    <input class="w-100 border-color" value="Natal" type="text" id="Genero">
-                                </div>
-                            </form>
-                        </div>
+                        <ul class='col-7 list-group d-flex flex-column'>
+                            <li class='list-group-item d-flex justify-content-between pt-3 pb-3 border-bottom'>
+                                <p class='fw-bold'>CPF</p>
+                                <p class='w-50'>123.456.789-10</p>
+                            </li>
+                            <li class='list-group-item d-flex justify-content-between pt-3 pb-3 border-top border-bottom'>
+                                <p class='fw-bold'>E-mail</p>
+                                <p class='w-50'>jrprogramador@gmail.com</p>
+                            </li>
+                            <li class='list-group-item d-flex justify-content-between pt-3 pb-3 border-top border-bottom'>
+                                <p class='fw-bold'>Nascimento</p>
+                                <p class='w-50'>11/09/2003</p>
+                            </li>
+                            <li class='list-group-item d-flex justify-content-between pt-3 pb-3 border-top border-bottom'>
+                                <p class='fw-bold'>Gênero</p>
+                                <p class='w-50'>Gênero</p>
+                            </li>
+                            <li class='list-group-item d-flex justify-content-between pt-3 pb-3 border-top border-bottom'>
+                                <p class='fw-bold'>UF</p>
+                                <p class='w-50'>Rio Grande do Norte (RN)</p>
+                            </li>
+                            <li class='list-group-item d-flex justify-content-between pt-3 pb-3 border-top'>
+                                <p class='fw-bold'>Cidade</p>
+                                <p class='w-50'>Natal</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
