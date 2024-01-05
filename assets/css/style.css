@@ -9,7 +9,7 @@ p{
     padding: 0;
 }
 
-/*Página 1*/
+/*Tela 6*/
 
 .volei, .futebol{
     width: 282px;
@@ -63,7 +63,7 @@ p{
 }
 
 
-/*Página 2*/
+/*Tela 7.1*/
 
 #home{
     color: #0095D9;
@@ -117,7 +117,7 @@ form{
     position: relative;
 }
 
-/*Página 3*/
+/*Tela 7.2*/
 
 #perfil-esquerda .card img{
     width: 100px
