@@ -18,17 +18,6 @@
     height: 42px;
 }
 
-#botao-enviar button{
-    display: flex;
-    height: 48px;
-    width: 368px;
-    padding: 10px 20px;
-    justify-content: center;
-    align-items: center;
-    align-self: stretch;
-    border-radius: 6px;
-}
-
 .senha {
     position: relative;
 }
@@ -109,10 +98,6 @@ form img{
     top: 50%;
     right: 10px;
     transform: translate(0, -50%);
-}
-
-.hhh{
-    min-height: 953px;
 }
 
 form input{
