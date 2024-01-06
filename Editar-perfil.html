@@ -31,8 +31,8 @@
     
 </head>
 
-<body class="h-100 gambiarra">
-    <section class="h-100 row">
+<body class="h-100">
+    <section class="tudo h-100 d-flex gap-5">
         <div class="col-2 d-flex flex-column justify-content-between h-100 padeiro border-end">
             <div class="nav d-flex flex-column">
                 <div class="topo d-flex justify-content-between pb-5">
@@ -43,7 +43,8 @@
                     <a href="Dashboard.html" class="link-underline link-underline-opacity-0">
                         <div class="dashboard d-flex align-items-center gap-2 hover">
                             <i class="bi ps-2 bi-house-door"></i>
-                            Dashboard
+            
+                            <p>Dashboard</p>
                         </div>
                     </a>
                     <a href="Modalidades.html" class="link-underline link-underline-opacity-0">
@@ -71,7 +72,7 @@
                 </a>
             </div>
         </div>
-        <div class="col-10 mt-2">
+        <div class="col mt-2">
             <div class="container padeiro">
                 <div class='d-flex flex-column gap-5'>
                     <div class='d-flex flex-column border-bottom'>
@@ -113,11 +114,11 @@
                                 <div class="d-flex gap-3">
                                     <div class="col-4">
                                         <label name='CPF' class="pb-1 fw-bold-600">CPF</label>
-                                        <input class="border-color bg-body-color w-100" placeholder="###.###.###-##" type="text" id="cpf">
+                                        <input class="border-color bg-body-color w-100" value="###.###.###-##" type="text" id="cpf">
                                     </div>
                                     <div class="col-7">
                                         <label name='email' class="pb-1 fw-bold-600">E-mail</label>
-                                        <input class="border-color bg-body-color w-100" placeholder="jrprogramador@gmail.com" type="text" id="email">
+                                        <input class="border-color bg-body-color w-100" value="jrprogramador@gmail.com" type="text" id="email">
                                     </div>
                                 </div>
                                 <div class="col-7">
@@ -153,5 +154,6 @@
         </div>
     </section>
 </body>
+
 
 </html>

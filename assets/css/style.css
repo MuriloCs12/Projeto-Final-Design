@@ -254,13 +254,10 @@ form{
 
 /*Barra da Esquerda*/
 
-.gambiarra{
-    overflow-x: hidden;
-}
 
 .padeiro {
     padding: 32px;   
-    padding-left: 40px;
+
 }
 
 .options {
@@ -404,7 +401,8 @@ form{
 }
 
 #modal{
-    width: 172px;
+    max-width: 172px;
+    min-width: 172px;
     height: max-content;
 }
 
